@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Selectionator</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/toast.css">
 </head>
 
 <body>
@@ -11,10 +12,19 @@
     <div id="select" ng-model=""></div>
     <button id="getValues">Получить значения</button>
     <div id="output"></div>
+
   </div>
+
+  <div id="toast"><div id="img">Icon</div><div id="desc">A notification message..</div></div>
+  <button onclick="launch_toast()">Show Toast</button>
+
 
   <script src="js/jquery.min.js"></script>
   <script src="js/index.js"></script>
+  <script src="js/toast.js"></script>
 
 </body>
 </html>
+
+
+

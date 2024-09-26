@@ -160,5 +160,6 @@ $(document).ready(function () {
 
   $('#getValues').on('click', function() {
      alert(sellang);
+     launch_toast();
   });
 });
